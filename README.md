@@ -1,7 +1,7 @@
 # RaccoonHacks
 Challenge Initiallized
 
-Official Submission: Word Invaders -> wordinvaders.space
+Official Submission: Word Invaders -> http://wordinvaders.space/
 
 Update: WE WON! GO SEE OUR SUBMISSION HERE - https://devpost.com/software/team-pmv
 
