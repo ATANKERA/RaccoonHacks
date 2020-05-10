@@ -28,11 +28,11 @@
 
 
                             <div class="d-flex align-items-center">
-                                <a id="play-home-video" class="video-play-button" href="https://atankera.github.io/Typing/">
+                                <a style="margin-left:740px;" id="play-home-video" class="video-play-button" href="https://atankera.github.io/Typing/">
                                     <span></span>
                                 </a>
-                                <div class="watch_video text-uppercase">
-                                               Type Like Humanity Depends Upon You
+                                <div style="margin-bottom:660px;" style="z-index:5;" class="watch_video text-uppercase">
+
                                 </div>
                             </div>
 
@@ -42,7 +42,119 @@
 
 
 
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="apple-touch-icon" type="image/png" href="https://static.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png" />
+<meta name="apple-mobile-web-app-title" content="CodePen">
+<link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico" />
+<link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<style>
+body {
+  background: #000;
+}
 
+.sun {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0 0 90px rgba(251, 172, 19, 0.4), 0 0 50px 10px rgba(251, 172, 19, 0.5), 0 0 120px 20px rgba(255, 255, 255, 0.6), 0 0 20px 10px rgba(255, 255, 255, 0.9);
+  height: 200px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 200px;
+  z-index: 0;
+}
+
+.moon {
+  background: #330033;
+  border-radius: 50%;
+  box-shadow: inset -5px 0 20px rgba(251, 0, 19, 0.6), inset 0 0 10px rgba(255, 255, 255, 0.7);
+  height: 195px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(calc(-50% - 10px), -50%);
+          transform: translate(calc(-50% - 10px), -50%);
+  width: 195px;
+  z-index: 2;
+}
+
+.play {
+  background: #60afcc;
+  border-radius: 50%;
+  box-shadow: inset -5px 0 20px rgba(251, 0, 19, 0.6), inset 0 0 10px rgba(255, 255, 255, 0.7);
+  height: 80px;
+  left: -100%;
+  position: absolute;
+  top: 100%;
+  -webkit-transform: translate(calc(-50% - 10px), -50%);
+          transform: translate(calc(-50% - 10px), -50%);
+  width: 80px;
+  z-index: 5;
+}
+
+
+
+.corona {
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: inset 0 0 30px rgba(251, 172, 19, 0.1), 0 0 40px 20px white, 0 0 60px 30px rgba(251, 172, 19, 0.5);
+  height: 80px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(calc(-50% + 90px), -50%);
+          transform: translate(calc(-50% + 90px), -50%);
+  width: 40px;
+  z-index: 3;
+}
+
+.corona:before, .corona:after {
+  background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), color-stop(50%, white), to(rgba(0, 0, 0, 0)));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, white 50%, rgba(0, 0, 0, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#00000000',GradientType=1 );
+  content: "";
+  position: absolute;
+}
+.corona:before {
+  height: 3px;
+  left: -110px;
+  opacity: .3;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+  top: 45px;
+  width: 300px;
+}
+.corona:after {
+  height: 3px;
+  left: -225px;
+  opacity: .2;
+  -webkit-transform: rotate(-80deg);
+          transform: rotate(-80deg);
+  top: 40px;
+  width: 500px;
+}
+</style>
+<script>
+  window.console = window.console || function(t) {};
+</script>
+<script>
+  if (document.location.search.match(/type=embed/gi)) {
+    window.parent.postMessage("resize", "*");
+  }
+</script>
+</head>
+<body translate="no">
+<div class="sun"></div>
+<div class="moon"></div>
+<div class="corona">
+<div class="play"></div>
+</div>
+</body>
 
 
 
